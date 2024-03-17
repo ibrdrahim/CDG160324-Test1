@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0F3DECA52BA5414B0042580E /* Codigo_DailyVitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECA42BA5414B0042580E /* Codigo_DailyVitaApp.swift */; };
-		0F3DECA72BA5414B0042580E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECA62BA5414B0042580E /* ContentView.swift */; };
+		0F3DECA72BA5414B0042580E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECA62BA5414B0042580E /* MainView.swift */; };
 		0F3DECA92BA5414D0042580E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DECA82BA5414D0042580E /* Assets.xcassets */; };
 		0F3DECAC2BA5414D0042580E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DECAB2BA5414D0042580E /* Preview Assets.xcassets */; };
-		0F3DECB62BA5414D0042580E /* Codigo_DailyVitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECB52BA5414D0042580E /* Codigo_DailyVitaTests.swift */; };
-		0F3DECC02BA5414E0042580E /* Codigo_DailyVitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECBF2BA5414E0042580E /* Codigo_DailyVitaUITests.swift */; };
-		0F3DECC22BA5414E0042580E /* Codigo_DailyVitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECC12BA5414E0042580E /* Codigo_DailyVitaUITestsLaunchTests.swift */; };
+		0F3DECD52BA542D10042580E /* Diets.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DECD22BA542D10042580E /* Diets.json */; };
+		0F3DECD62BA542D10042580E /* Allergies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DECD32BA542D10042580E /* Allergies.json */; };
+		0F3DECD72BA542D10042580E /* Healthconcerns.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DECD42BA542D10042580E /* Healthconcerns.json */; };
+		0F3DECDA2BA5453D0042580E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECD92BA5453D0042580E /* AppColor.swift */; };
+		0F3DECDC2BA545BA0042580E /* CustomPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECDB2BA545BA0042580E /* CustomPadding.swift */; };
+		0F3DECDE2BA547320042580E /* CustomFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECDD2BA547320042580E /* CustomFontSize.swift */; };
+		0F3DECE02BA54A920042580E /* HealthConcernsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECDF2BA54A920042580E /* HealthConcernsViewModel.swift */; };
+		0F3DECE22BA54ACF0042580E /* HealthConcernsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECE12BA54ACF0042580E /* HealthConcernsData.swift */; };
+		0F3DECE42BA54B5A0042580E /* HealthConcernsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECE32BA54B5A0042580E /* HealthConcernsView.swift */; };
+		0F3DECE92BA56E8A0042580E /* DietsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECE82BA56E8A0042580E /* DietsData.swift */; };
+		0F3DECEB2BA56E9C0042580E /* DietsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECEA2BA56E9C0042580E /* DietsViewModel.swift */; };
+		0F3DECED2BA56EB90042580E /* DietsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECEC2BA56EB90042580E /* DietsView.swift */; };
+		0F3DECEF2BA580E80042580E /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECEE2BA580E80042580E /* QuestionData.swift */; };
+		0F3DECF12BA581080042580E /* QuestionnaireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECF02BA581080042580E /* QuestionnaireViewModel.swift */; };
+		0F3DECF32BA5811D0042580E /* QuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECF22BA5811D0042580E /* QuestionnaireView.swift */; };
+		0F3DECF52BA584B00042580E /* AllergiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECF42BA584B00042580E /* AllergiesData.swift */; };
+		0F3DECF72BA584EF0042580E /* AllergiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECF62BA584EF0042580E /* AllergiesViewModel.swift */; };
+		0F3DECF92BA586300042580E /* AllergiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECF82BA586300042580E /* AllergiesView.swift */; };
+		0F3DECFD2BA5D0520042580E /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DECFC2BA5D0520042580E /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +52,30 @@
 /* Begin PBXFileReference section */
 		0F3DECA12BA5414B0042580E /* Codigo DailyVita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codigo DailyVita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3DECA42BA5414B0042580E /* Codigo_DailyVitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codigo_DailyVitaApp.swift; sourceTree = "<group>"; };
-		0F3DECA62BA5414B0042580E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F3DECA62BA5414B0042580E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0F3DECA82BA5414D0042580E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3DECAB2BA5414D0042580E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F3DECB12BA5414D0042580E /* Codigo DailyVitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codigo DailyVitaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F3DECB52BA5414D0042580E /* Codigo_DailyVitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codigo_DailyVitaTests.swift; sourceTree = "<group>"; };
 		0F3DECBB2BA5414E0042580E /* Codigo DailyVitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codigo DailyVitaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F3DECBF2BA5414E0042580E /* Codigo_DailyVitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codigo_DailyVitaUITests.swift; sourceTree = "<group>"; };
-		0F3DECC12BA5414E0042580E /* Codigo_DailyVitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codigo_DailyVitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F3DECD22BA542D10042580E /* Diets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Diets.json; sourceTree = "<group>"; };
+		0F3DECD32BA542D10042580E /* Allergies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Allergies.json; sourceTree = "<group>"; };
+		0F3DECD42BA542D10042580E /* Healthconcerns.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Healthconcerns.json; sourceTree = "<group>"; };
+		0F3DECD92BA5453D0042580E /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		0F3DECDB2BA545BA0042580E /* CustomPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPadding.swift; sourceTree = "<group>"; };
+		0F3DECDD2BA547320042580E /* CustomFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontSize.swift; sourceTree = "<group>"; };
+		0F3DECDF2BA54A920042580E /* HealthConcernsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthConcernsViewModel.swift; sourceTree = "<group>"; };
+		0F3DECE12BA54ACF0042580E /* HealthConcernsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthConcernsData.swift; sourceTree = "<group>"; };
+		0F3DECE32BA54B5A0042580E /* HealthConcernsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthConcernsView.swift; sourceTree = "<group>"; };
+		0F3DECE82BA56E8A0042580E /* DietsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietsData.swift; sourceTree = "<group>"; };
+		0F3DECEA2BA56E9C0042580E /* DietsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietsViewModel.swift; sourceTree = "<group>"; };
+		0F3DECEC2BA56EB90042580E /* DietsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietsView.swift; sourceTree = "<group>"; };
+		0F3DECEE2BA580E80042580E /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		0F3DECF02BA581080042580E /* QuestionnaireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewModel.swift; sourceTree = "<group>"; };
+		0F3DECF22BA5811D0042580E /* QuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireView.swift; sourceTree = "<group>"; };
+		0F3DECF42BA584B00042580E /* AllergiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesData.swift; sourceTree = "<group>"; };
+		0F3DECF62BA584EF0042580E /* AllergiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesViewModel.swift; sourceTree = "<group>"; };
+		0F3DECF82BA586300042580E /* AllergiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergiesView.swift; sourceTree = "<group>"; };
+		0F3DECFC2BA5D0520042580E /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				0F3DECA32BA5414B0042580E /* Codigo DailyVita */,
-				0F3DECB42BA5414D0042580E /* Codigo DailyVitaTests */,
-				0F3DECBE2BA5414E0042580E /* Codigo DailyVitaUITests */,
 				0F3DECA22BA5414B0042580E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +124,11 @@
 		0F3DECA32BA5414B0042580E /* Codigo DailyVita */ = {
 			isa = PBXGroup;
 			children = (
+				0F3DECD82BA543140042580E /* Utils */,
+				0F3DECD02BA541AD0042580E /* ViewModels */,
+				0F3DECCF2BA541A80042580E /* Views */,
+				0F3DECCE2BA541A10042580E /* Models */,
 				0F3DECA42BA5414B0042580E /* Codigo_DailyVitaApp.swift */,
-				0F3DECA62BA5414B0042580E /* ContentView.swift */,
 				0F3DECA82BA5414D0042580E /* Assets.xcassets */,
 				0F3DECAA2BA5414D0042580E /* Preview Content */,
 			);
@@ -110,21 +143,60 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0F3DECB42BA5414D0042580E /* Codigo DailyVitaTests */ = {
+		0F3DECCE2BA541A10042580E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0F3DECB52BA5414D0042580E /* Codigo_DailyVitaTests.swift */,
+				0F3DECD12BA542C20042580E /* JSON */,
+				0F3DECE12BA54ACF0042580E /* HealthConcernsData.swift */,
+				0F3DECE82BA56E8A0042580E /* DietsData.swift */,
+				0F3DECEE2BA580E80042580E /* QuestionData.swift */,
+				0F3DECF42BA584B00042580E /* AllergiesData.swift */,
 			);
-			path = "Codigo DailyVitaTests";
+			path = Models;
 			sourceTree = "<group>";
 		};
-		0F3DECBE2BA5414E0042580E /* Codigo DailyVitaUITests */ = {
+		0F3DECCF2BA541A80042580E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0F3DECBF2BA5414E0042580E /* Codigo_DailyVitaUITests.swift */,
-				0F3DECC12BA5414E0042580E /* Codigo_DailyVitaUITestsLaunchTests.swift */,
+				0F3DECFC2BA5D0520042580E /* ProgressBarView.swift */,
+				0F3DECA62BA5414B0042580E /* MainView.swift */,
+				0F3DECE32BA54B5A0042580E /* HealthConcernsView.swift */,
+				0F3DECEC2BA56EB90042580E /* DietsView.swift */,
+				0F3DECF82BA586300042580E /* AllergiesView.swift */,
+				0F3DECF22BA5811D0042580E /* QuestionnaireView.swift */,
 			);
-			path = "Codigo DailyVitaUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F3DECD02BA541AD0042580E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DECDF2BA54A920042580E /* HealthConcernsViewModel.swift */,
+				0F3DECEA2BA56E9C0042580E /* DietsViewModel.swift */,
+				0F3DECF02BA581080042580E /* QuestionnaireViewModel.swift */,
+				0F3DECF62BA584EF0042580E /* AllergiesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0F3DECD12BA542C20042580E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DECD32BA542D10042580E /* Allergies.json */,
+				0F3DECD22BA542D10042580E /* Diets.json */,
+				0F3DECD42BA542D10042580E /* Healthconcerns.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		0F3DECD82BA543140042580E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DECD92BA5453D0042580E /* AppColor.swift */,
+				0F3DECDB2BA545BA0042580E /* CustomPadding.swift */,
+				0F3DECDD2BA547320042580E /* CustomFontSize.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F3DECAC2BA5414D0042580E /* Preview Assets.xcassets in Resources */,
+				0F3DECD52BA542D10042580E /* Diets.json in Resources */,
+				0F3DECD62BA542D10042580E /* Allergies.json in Resources */,
+				0F3DECD72BA542D10042580E /* Healthconcerns.json in Resources */,
 				0F3DECA92BA5414D0042580E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +332,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3DECA72BA5414B0042580E /* ContentView.swift in Sources */,
+				0F3DECDC2BA545BA0042580E /* CustomPadding.swift in Sources */,
+				0F3DECED2BA56EB90042580E /* DietsView.swift in Sources */,
+				0F3DECA72BA5414B0042580E /* MainView.swift in Sources */,
+				0F3DECEF2BA580E80042580E /* QuestionData.swift in Sources */,
+				0F3DECE22BA54ACF0042580E /* HealthConcernsData.swift in Sources */,
+				0F3DECF52BA584B00042580E /* AllergiesData.swift in Sources */,
+				0F3DECFD2BA5D0520042580E /* ProgressBarView.swift in Sources */,
 				0F3DECA52BA5414B0042580E /* Codigo_DailyVitaApp.swift in Sources */,
+				0F3DECF72BA584EF0042580E /* AllergiesViewModel.swift in Sources */,
+				0F3DECE92BA56E8A0042580E /* DietsData.swift in Sources */,
+				0F3DECE02BA54A920042580E /* HealthConcernsViewModel.swift in Sources */,
+				0F3DECEB2BA56E9C0042580E /* DietsViewModel.swift in Sources */,
+				0F3DECDE2BA547320042580E /* CustomFontSize.swift in Sources */,
+				0F3DECF32BA5811D0042580E /* QuestionnaireView.swift in Sources */,
+				0F3DECDA2BA5453D0042580E /* AppColor.swift in Sources */,
+				0F3DECE42BA54B5A0042580E /* HealthConcernsView.swift in Sources */,
+				0F3DECF12BA581080042580E /* QuestionnaireViewModel.swift in Sources */,
+				0F3DECF92BA586300042580E /* AllergiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3DECB62BA5414D0042580E /* Codigo_DailyVitaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3DECC02BA5414E0042580E /* Codigo_DailyVitaUITests.swift in Sources */,
-				0F3DECC22BA5414E0042580E /* Codigo_DailyVitaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
